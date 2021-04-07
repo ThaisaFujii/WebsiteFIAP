@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+h1{ width: 800px;
+    color: darkslateblue;
+}
+.bem-vindos {
+    width: 673.5px;
+    height: 450px;
+    background-image: url("/images/tentativa\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    margin-top: 100px;
+    margin-left: 440px;
+    margin-bottom: 100px;    
+    border-radius: 10px; 
+    padding: 15px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color:blue; 
+}
+

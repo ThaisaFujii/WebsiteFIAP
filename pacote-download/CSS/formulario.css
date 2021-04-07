@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    
+}
+
+main.container {
+    display: flex;
+    margin: 150px auto;
+    width: 990px 800px;
+    background: white;
+    font-size: 20px;
+    max-width: 400px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 40px 40px 40px rgba(red, green, blue, alpha);
+    border-radius: 8px;
+       
+}
+
+.genero{
+    color:black;
+    justify-content: space-between;
+    
+}
+
+.mensagem {
+   position: 100px auto;
+   color: brown;
+}
+
+textarea { 
+    max-width: 250px;
+    width: 250px;
+    height: 100px;
+    max-height: 100px;
+
+}
+
+fieldset {
+    padding: 15px;
+}

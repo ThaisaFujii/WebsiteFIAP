@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Projeto FIAP- Meu primeiro site</title>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/formulario.css">
+    
+</head>
+<body>    
+     <div class="header">
+       <div class="logo">
+          <h2>Projeto FRIENDBOT</h2>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="../Pages/Index.html">HOME</a></li>
+              <li><a href="../Pages/Robo.html">ROBÔ</a></li>
+              <li><a href="../Pages/Jogos.html">JOGOS</a></li>
+              <li><a href="../Pages/Formulario.html">FORMULARIO</a></li>            
+            </ul>
+          </div>
+     </div>
+     <!-- usar metodo post?? -->
+     <main class="container">
+     <fieldset>
+      <legend> Campos do formulário </legend>
+
+     <form name=”nome” id=”identificador” method=”post”
+     action=”endereço do script” method="post">
+       
+             
+       <div>
+
+         <h3> Selecione o seu gênero </h3></br>
+         <div class="genero">
+          <input type="radio" name="genero" id="first">
+          <label for="first"> Menina </label>
+          <input type="radio" name="genero" id="second">
+          <label for="second"> Menino </label> </br></br>
+         </div>
+        
+        </div>
+
+       <div class="usuario">
+         <label for="nome"> Nome do usuário: </label>
+         <input type="text" id="nome"> </br> </br>
+         </div>
+       
+         <div class="data">
+
+          <label for="mes">Data do acesso: </label>
+          <input type="date" id="data"> </br></br>
+
+         </div>
+
+       <div class="mensagem">
+
+        <h4>
+          <label for="message"> O que você achou do site? </label>
+        </h4>
+          <textarea name="mensagem" id="mensagem" placeholder="Comente aqui"></textarea>
+       
+       </div>
+
+       <div class="botoes">
+
+         <button> <a href="../Pages/feedback.html">ENVIAR</a> </button>
+         
+
+       </div>
+       
+
+      </form>
+
+       </fieldset>
+      </main>
+
+        
+        
+
+    </body>
+    
+
+    
+</html>

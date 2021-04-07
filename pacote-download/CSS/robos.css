@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+  background: linear-gradient(45deg, #8e2de2, #4a00e0);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
+     
+}
+.robo {
+    font-family: 'Lato', sans-serif;
+           
+}
+
+h1 {
+    color: black;
+    background-color: white;
+    width: 220px;
+    height: 50px;
+    margin-top: 90px;
+    margin-left: 100px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 5px;
+    
+  }
+
+p { 
+   color: black;
+   font-size: 18px;
+   margin-top: 0px;
+   margin-left: 100px;
+   margin-right: 100px;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   padding: 15px;
+}
+
+a{ 
+   color: tomato;
+  
+}
+
+table {    
+    font-size: 18px;
+    border-collapse: collapse;
+    width: 350px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+   
+  }
+  caption {
+    font-size: 14px;
+    color: rgb(42, 172, 122);
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  thead tr {
+    background:  rgb(42, 172, 122);
+    color: #fff;
+    text-align: left;
+  }
+   th, td {
+    padding: 5px;
+    box-sizing: border-box;
+  }
+   tbody tr {
+    border-bottom: 1px solid #ccc;
+  }
+     
+   tbody tr:hover {
+    font-weight: 200;
+    color: rgb(42, 172, 122);
+    cursor: pointer;
+  }
+   tfoot {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 900;
+  }
+
+img{
+    width: 500px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+a{
+   color: white;
+   text-decoration: none;
+}
