@@ -1,2 +1,2 @@
 # WebsiteFIAP
- Website da fase 01 da faculdade
+ First basic Website from scretch using HTML and CSS for the first semester.
